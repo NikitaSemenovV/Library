@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+  <reader num="a123d" >
+    <book name="tst" date="1.3qsad.2019" days="10" author="TST" izdat="123" price="1" year="2015" />
+    <book name="tst" date="2.01.2019" days="10" author="TST" izdat="123" price="1" year="2015" />
+  </reader>
+</library>

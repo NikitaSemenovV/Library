@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+  <reader num="a123d" sname="Семенов">
+    <book name="tst" date="1.01.2019" days="10" author="TST" izdat="123" price="1" year="2015" />
+  </reader>
+  <reader num="b123d" sname="Семенов">
+    <book name="tst" author="TST" date="01.02.2019" days="10" izdat="123" price="1" year="2015" />
+  </reader>
+</library>

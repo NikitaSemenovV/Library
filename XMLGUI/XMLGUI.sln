@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLGUI", "XMLGUI.csproj", "{9FBFC767-8579-4C9C-8A20-A6434CA723AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLTEST", "..\XMLTEST\XMLTEST.csproj", "{36E80D1C-88C5-441E-A1AC-48A641C5D74A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FBFC767-8579-4C9C-8A20-A6434CA723AF} = {9FBFC767-8579-4C9C-8A20-A6434CA723AF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBFC767-8579-4C9C-8A20-A6434CA723AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBFC767-8579-4C9C-8A20-A6434CA723AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBFC767-8579-4C9C-8A20-A6434CA723AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBFC767-8579-4C9C-8A20-A6434CA723AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E80D1C-88C5-441E-A1AC-48A641C5D74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E80D1C-88C5-441E-A1AC-48A641C5D74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E80D1C-88C5-441E-A1AC-48A641C5D74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E80D1C-88C5-441E-A1AC-48A641C5D74A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFAD48B1-1CC7-404F-B54E-1A19DF59DFE0}
+	EndGlobalSection
+EndGlobal
